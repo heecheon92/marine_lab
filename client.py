@@ -3,6 +3,7 @@
 import socket
 import sys
 
+# This program is to receive data from Arduino.
 
 TCP_IP = '192.168.1.xxx'    # Currently arbitrary. It will have a fixed value, once all the set up is complete.
 TCP_PORT = 5005
