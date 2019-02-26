@@ -4,7 +4,7 @@ import socket
 import sys
 
 
-TCP_IP = '192.168.2.100'
+TCP_IP = '192.168.1.xxx'    # Currently arbitrary. It will have a fixed value, once all the set up is complete.
 TCP_PORT = 5005
 BUFFER_SIZE = 1024
 MESSAGE = str(sys.argv[1])
