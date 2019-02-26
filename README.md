@@ -6,7 +6,7 @@ Heecheon Park
 
 Communication between Arduino and Raspberry Pi for Data Logging.
 
-This is a code base and therefore, it is not completed work.
+This is a code base and therefore, it is not a completed work.
 
 # Plan
 
