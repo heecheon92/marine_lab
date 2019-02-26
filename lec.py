@@ -54,7 +54,7 @@ def server():
             conn.close()
 
 
-TCP_IP = '192.168.2.100'
+TCP_IP = '192.168.1.xxx'                # It will have a fixed value, once our setup is complete.
 TCP_PORT = 5005
 BUFFER_SIZE = 20  # Normally 1024, but we want fast response
 
