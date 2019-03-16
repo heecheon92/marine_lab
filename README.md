@@ -20,5 +20,9 @@ Additionally, a Python script can be executed to send command signals to the Ard
 
 that the relays can actuate the solenoid valves.
 
+# Python DB Manager (Base)
+
+mysqldb.py is a python3 script file that creates a DB and table to populate data received from Arduino.
+
 
 
