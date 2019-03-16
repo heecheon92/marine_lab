@@ -24,5 +24,12 @@ that the relays can actuate the solenoid valves.
 
 mysqldb.py is a python3 script file that creates a DB and table to populate data received from Arduino.
 
+Before the script execution:
 
+[!alt-text](https://github.com/heecheon92/marine_lab/blob/master/Screen%20Shot%202019-03-16%20at%201.04.38%20PM.png)
+
+After the script execution:
+
+[!alt-text](https://github.com/heecheon92/marine_lab/blob/master/Screen%20Shot%202019-03-16%20at%201.07.05%20PM.png)
+[!alt-text](https://github.com/heecheon92/marine_lab/blob/master/Screen%20Shot%202019-03-16%20at%201.07.33%20PM.png)
 
