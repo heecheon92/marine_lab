@@ -20,7 +20,7 @@ try:
     import pymysql
     import getpass
 except ImportError:
-    print("Install PyMySQL first by typing: pip3 install PyMySQL")
+    print("Install PyMySQL/getpass first by typing: pip3 install PyMySQL or getpass")
 
 db_name = "MARINELAB_DB"
 username = input("MySQL username: ")
