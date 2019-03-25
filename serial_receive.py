@@ -2,7 +2,7 @@ import serial
 import datetime
 import subprocess
 
-cmd = "dmesg |egrep 'attached*' |cut -d ' ' -f10"
+cmd = "dmesg |egrep 'attached*' |awk '{ print $NF }'"
 serialName = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 serialName = str(serialName.communicate()[0]).replace('\n', '').replace('\r', '')
 
